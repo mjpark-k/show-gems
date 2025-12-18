@@ -13,7 +13,7 @@ export default function Button({
   disabled = false,
   onClick,
 }: ButtonProps) {
-  const baseStyle = 'px-6 py-3 rounded-lg border-white border';
+  const baseStyle = 'px-6 py-3 rounded-lg border-white border w-full';
 
   const variantStyle = {
     primary: {
